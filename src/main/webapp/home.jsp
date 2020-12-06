@@ -30,6 +30,35 @@
 	ID <input type="text" name="aid"><br>
 	<input type="submit"><br>
 	</form>
+	
+	By Tech....
+	<form action="getByTech">
+	
+	Tech <input type="text" name="tech"><br>
+	<input type="submit"><br>
+	</form>
+	
+	By Age....
+	<form action="getByAge">
+	
+	Age <input type="text" name="age"><br>
+	<input type="submit"><br>
+	</form>
+	
+	By Age > ...
+	<form action="getByAgeGT">
+	
+	Age GT <input type="text" name="age"><br>
+	<input type="submit"><br>
+	</form>
+	
+	By Tech sorted > ...
+	<form action="getByTechSorted">
+	
+	Tech sorted <input type="text" name="tech"><br>
+	<input type="submit"><br>
+	</form>
+	
 
 </body>
 </html>

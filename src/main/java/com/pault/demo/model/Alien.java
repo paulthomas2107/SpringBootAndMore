@@ -12,6 +12,7 @@ public class Alien {
 	@Id
 	private int aid;
 	private String aname;
-	private String atech;
+	private String tech;
+	private int age;
 
 }
